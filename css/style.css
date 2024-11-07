@@ -92,7 +92,6 @@
     width: 100%;
 
 }
-
 .header-text {
    max-width: 314px;
    width: 100%;
@@ -120,7 +119,6 @@
 .service {
    padding-bottom: 30px;
 }
-
 
  .service-content {
    display: flex;
@@ -158,3 +156,69 @@
  }
 
  /* SERVICE */
+
+ /* WORK */
+.work {
+   padding-bottom: 44px;
+}
+
+.work-content {
+   display: flex;
+   column-gap: 30px;
+}
+
+.work-text {
+   max-width: 825px;
+   width: 100%;
+   background-color: #fff;
+   padding: 15px;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 15px;
+   color: #545454;
+   text-align: justify;
+
+}
+.work-title {
+   color: #686868;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: justify;
+   margin: 0 0 22px 15px;
+}
+
+.work-item__link {
+   display: block;
+   max-width: 255px;
+   width: 100%;
+   background-color: white;
+   display: flex;
+   column-gap: 15px;
+   align-items: center;
+   border-radius: 8px;
+   padding: 15px;
+   margin-bottom: 20px;
+}
+
+.work-item__image {
+   width: 55px;
+   height: 55px;
+   border-radius: 50%;
+}
+.work-item__title {
+   color: #323232;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 94.5%;
+}
+.work-item__desc {
+   color: #000;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 94.5%;
+   margin-top: 5px;
+}
+
+
+ /* WORK */
